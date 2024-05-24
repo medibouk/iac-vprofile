@@ -45,7 +45,7 @@ jobs:
       
       - name: terraform terraform validate
         id: validate
-        run: terraform valiate
+        run: terraform validate
 
       - name: Terraform Plan
         id: plan
